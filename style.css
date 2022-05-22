@@ -98,12 +98,7 @@
 }
 
 /* New Task */
-/* label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-} */
-
-.task__input#new-task {
+.new-task-wrapper .task__input {
   width: 318px;
 }
 
