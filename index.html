@@ -9,14 +9,14 @@
 <body class="app">
   <header class="header">
     <img class="header__img" src="./eisenhower-matrix.jpg" alt="the Eisenhower matrix">
-    <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="header__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
 
   <main class="main-wrapper">
 
     <section>
       <h3 class="title">Add Item</h3>
-      <div class="task-row-wrapper">
+      <div class="new-task-wrapper task">
         <input class="task__input task__input_text" id="new-task" type="text">
         <button class="task__button task__button_add button">Add</button>
       </div>
@@ -24,15 +24,15 @@
 
     <section>
       <h3 class="title">Todo</h3>
-      <ul class="task-list" id="incompleteTasks">
-        <li class="task-list__item">
+      <ul class="task-list" id="incomplete-tasks">
+        <li class="task-list__item task">
           <input class="task__input task__input_checkbox" type="checkbox">
           <label class="task__label">Pay Bills</label>
           <input class="task__input task__input_text" type="text">
           <button class="task__button task__button_edit button">Edit</button>
           <button class="task__button task__button_delete button"><img class="button__img" src="./remove.svg" alt="remove"></button>
         </li>
-        <li class="task-list__item editMode">
+        <li class="task-list__item task-list__item_edit task ">
           <input class="task__input task__input_checkbox" type="checkbox">
           <label class="task__label">Go Shopping</label>
           <input class="task__input task__input_text" type="text" value="Go Shopping">
@@ -45,7 +45,7 @@
     <section>
       <h3 class="title">Completed</h3>
       <ul class="task-list" id="completed-tasks">
-        <li class="task-list__item">
+        <li class="task-list__item task">
           <input class="task__input task__input_checkbox" type="checkbox" checked>
           <label class="task__label">See the Doctor</label>
           <input class="task__input task__input_text" type="text">

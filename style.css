@@ -10,11 +10,12 @@
   margin: 0 auto;
   display: block;
   text-align: right;
+  margin-bottom: 16px;
 }
 .header__img {
   width: 100%;
 }
-.header .more_inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
@@ -35,9 +36,9 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.new-task-wrapper {
   display: flex;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .task-list {
@@ -157,11 +158,11 @@
   display: none;
 }
 
-.task-list .task-list__item.editMode .task__input_text {
+.task-list .task-list__item.task-list__item_edit .task__input_text {
   display: inline-block;
   width: 224px;
 }
 
-.task-list .task-list__item.editMode .task__label {
+.task-list .task-list__item.task-list__item_edit .task__label {
   display: none;
 }
