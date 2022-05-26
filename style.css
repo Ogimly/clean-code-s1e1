@@ -129,7 +129,7 @@
   width: 226px;
 }
 
-.task-list__item >  .task__input_text {
+.task-list__item > .task__input_text {
   width: 226px;
 }
 
@@ -150,15 +150,15 @@
 }
 
 /* Edit Task */
-.task-list .task-list__item .task__input_text {
+.task-list__item .task__input_text {
   display: none;
 }
 
-.task-list .task-list__item.task-list__item_edit .task__input_text {
+.task-list__item_edit .task__input_text {
   display: inline-block;
   width: 224px;
 }
 
-.task-list .task-list__item.task-list__item_edit .task__label {
+.task-list__item_edit .task__label {
   display: none;
 }
