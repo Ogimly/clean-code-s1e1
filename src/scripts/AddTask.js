@@ -15,9 +15,14 @@ class AddTask extends Control {
       this.addTask();
     };
 
-    this.btnAdd = new Control(this.div.node, 'button', 'button task__button task__button_add', 'Add');
+    this.btnAdd = new Control(
+      this.div.node,
+      'button',
+      'button task__button task__button_add',
+      'Add'
+    );
     this.btnAdd.node.onclick = () => {
-      this.addTask();
+      // this.addTask();
     };
   }
 
