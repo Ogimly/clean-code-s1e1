@@ -1,13 +1,16 @@
-<img width="1199" alt="code-quality-task-screenshot" src="https://user-images.githubusercontent.com/8201843/113413843-4080fb80-93c4-11eb-9f20-15e4b4c1e430.png">
+# TODO-list app (Clean code)
 
-# Функционал приложения :
+[RSS task week 10](https://github.com/rolling-scopes-school/tasks/blob/master/stage1/modules/clean-code/clean-code-s1e1.md)
 
-    - Добавление нового элемента в список задач "TODO"
-    - Редактирование элемента в списке задач "TODO"
-    - Удаление элемента из списка задач "TODO"
-    - Установка элемента в статус завершенного и перенос в список "COMPLETED" через checkbox
+> Here is a small one-page TODO-list web application. Your task is to put things in order inside the code files (refactoring) according to the outcomes: here and here (only html and css files). In this case, the functionality of the application should be detected after your changes.
 
-    - Удаление элемента из списка "COMPLETED"
-    - Редактирование элемента из списка "COMPLETED"
-    - Установка элемента в статус незавершенного и перенос в список "TODO" через checkbox
-    - Анимация на кнопке удаления
+**In this task, I learned:**
+
+- clean code guideline for HTML & CSS
+- handling events in DOM without selectors
+- using classes to creation several types of components
+- using state of application and generation task list on change
+
+[Pull Request](https://github.com/ogimly/clean-code-s1e1/pull/1)
+
+[Deploy](https://ogimly.github.io/clean-code-s1e1/)
